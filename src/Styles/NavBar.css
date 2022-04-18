@@ -1,19 +1,20 @@
 .Navbar{
     width: 100%;
     height: 100px;
-    background: color #faf42a;
+    background: color #669900;
     display: flex;
     flex-direction:row;
 }
-.Navbar .lefside{
+.Navbar .leftside{
     flex:50%;
     height: 100%;
     display: flex;
     align-items: center;
     padding-left: 150px;
 }
- .Navbar.lefside.img{
-     width: 200px;
+ 
+.Navbar.leftside.img{
+     width: 150px;
  }
  
  .navbar.rightside{
