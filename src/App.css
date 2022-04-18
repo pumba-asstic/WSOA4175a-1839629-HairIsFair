@@ -1,4 +1,10 @@
 .App {
-  text-align: left;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  display:flex;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+  
 
 }
