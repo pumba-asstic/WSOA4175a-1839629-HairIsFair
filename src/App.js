@@ -1,10 +1,7 @@
 import './App.css';
 import Navbar from './Components/Navbar';
-import {Routes , Route} from 'react-router-dom';
-import Home from "./Pages/Home";
-import Blogs from './Pages/Blogs';
-import DesignAesth from './Pages/DesignAesth';
-
+import {Route, Switch} from 'react-router-dom'
+import Home from './Pages/Home';
 
 
 function App(){
@@ -12,7 +9,9 @@ function App(){
     
     <div className="App">
      <Navbar/>
-     
+     <Switch>
+       <Route exact path ='/' component={Home}></Route>
+     </Switch>
     </div>
   
   );
