@@ -78,6 +78,8 @@
 @media only screen and (max-width: 600px){
     .Navbar{
         background-color: #6bbbae;
+        width: 150%;
+        padding-right: 5px;
     }
     .Navbar .Rightside a{
         display:none;
