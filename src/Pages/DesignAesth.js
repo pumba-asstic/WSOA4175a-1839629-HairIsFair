@@ -14,8 +14,11 @@ export default class DesignAesth extends Component {
         <p>
           The following images are images of the annotated wirframes and colour/ style guide. 
           I based my site off the colours in the guide, cause of what the colours mean and what the represent in regard to the content and context of the site. 
-          The colour scheme might be a little off, in terms of the colour way but most of these colours we tend to see them in natural hair sites or hair product containers
-        
+          The colour scheme might be a little off, in terms of the colour way but most of these colours we tend to see them in natural hair sites or hair product containers.
+        </p>
+        <p>
+          These coloure represent growth, new beginings and reason why I chose these colour is because the site is all about hair,
+          hair that breaks, "The Big Chop" methods and what type of hair products to use when dealing with different hair textures.
         </p>
         <div className="WireframeContainer">
           <img className="Img3" src={homewireImg}/>
