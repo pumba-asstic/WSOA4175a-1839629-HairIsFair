@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import "../Styles/theBlogs.css";
 import introImage from "../Assets/Blogpost1 .png";
+import { Link } from 'react-router-dom';
 
 const ArtURl ="https://collection.eliterature.org/3/work.html?work=with-those-we-love-alive ";
 
@@ -74,8 +75,8 @@ export default class blogpost1 extends Component {
                  <a href={ref3URl}>https://collection.eliterature.org/3/work.html?work=with-those-we-love-alive</a>
 
                  </li>
-
              </ol>
+             <Link to="/blogpost2" ><button className="NextButton">Next</button></Link>
            </div>   
       
     )

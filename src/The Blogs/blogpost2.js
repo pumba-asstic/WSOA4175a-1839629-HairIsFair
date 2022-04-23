@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import "../Styles/theBlogs.css";
 import introImage from "../Assets/Blogpost2.png";
 import AnarchicImage from "../Assets/anarchicStructure.png";
+import { Link } from 'react-router-dom';
 
 
 export default class blogpost2 extends Component {
@@ -133,6 +134,7 @@ export default class blogpost2 extends Component {
                     Thorlacius, L., 2007. The role of Aesthetics in Web Design.<i>Nordicom Review</i> , 28(1), pp. 67-76.
               </li>
           </ol>
+          <Link to="/blogpost3"><button className="NextButton">Next</button></Link>
       </div>
     )
   }
